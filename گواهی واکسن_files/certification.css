@@ -1,0 +1,140 @@
+.main-body {
+    position: relative;
+    font-family: "Vazir";
+    background-image: url("../img/certificate.png") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.contain {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top:5em; */
+    width: 94% !important;
+    height: 100%;
+}
+.styleImage {
+    width: 220px;
+    height: 167.5px;
+}
+
+.btnClass {
+    padding: 1rem 2.15rem !important;
+    color: white;
+    background-color: #9516d8;
+    border: 1px solid #571477;
+    font-size: 11pt;
+    border-radius: 30px;
+    font-weight: 400;
+    margin-top: 5rem;
+    letter-spacing: 0.1em;
+}
+.btnClass:hover {
+    background-color: #571477;
+    outline: none;
+}
+.btnClass:focus {
+    background-color: #571477;
+    outline: none;
+}
+.headerDiv {
+    margin-top: 1rem;
+}
+.aImage {
+    display: inline-block;
+}
+.headFa {
+    margin: auto !important;
+    width: fit-content;
+    width: -moz-fit-content;
+    font-size: 23pt;
+    font-weight: 600;
+    color: #4b4279;
+}
+.headEn {
+    width: fit-content;
+    width: -moz-fit-content;
+    font-size: 19pt;
+    font-weight: 600;
+    color: #4b4279;
+}
+.parCertificate {
+    text-align: right;
+    direction: rtl;
+    font-size: 18pt;
+}
+.parCertificateEn {
+    text-align: left;
+    direction: ltr;
+    font-size: 17pt;
+    margin-top: 48px;
+}
+.qrCodeImage {
+    height: 130px;
+    width: 130px;
+}
+.divTable {
+    margin-top: 3rem;
+}
+.table {
+    border: 1px solid #e7edf6;
+}
+img {
+    width: 150px;
+}
+/* .headerDiv{
+        margin-top: -74px;
+    } */
+.headerDiv {
+    margin-bottom: 40%;
+}
+.divDivAdres {
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+.divAdress {
+    width: 18%;
+}
+.imgNobanLogo {
+    width: 18% !important;
+}
+@media only screen and (max-width: 480px) {
+    .headFa {
+        font-size: 13pt;
+    }
+    .headEn {
+        font-size: 12pt;
+    }
+    .parCertificate {
+        font-size: 11pt;
+    }
+    .parCertificateEn {
+        font-size: 11pt;
+    }
+    /* .table{
+            border: none;
+        } */
+
+    .divAdress {
+        width: 100%;
+    }
+    .divAdress p {
+        font-size: 10pt;
+    }
+    footer a img {
+        width: 40%;
+        margin-left: 5%;
+    }
+    .divDivAdres {
+        display: block;
+    }
+}
+
+/* @media print and (orientation: portrait) {
+        .page {
+            height: 297mm;
+            width: 210mm;
+            background: red;
+        }
+    } */
